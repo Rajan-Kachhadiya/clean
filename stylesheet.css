@@ -1,0 +1,944 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+/* header */
+.headerbox .headerbox_inner {
+    background-color: #f3f3f5;
+    border-bottom: 2px solid lightgray;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerbox .headerbox_inner .part1 img {
+    width: 180px;
+}
+.headerbox .headerbox_inner .part2 {
+    display: flex;
+    align-items: center;
+}
+.headerbox .headerbox_inner .part2 i{
+    font-size: 25px;
+    padding: 15px;
+    color: gray;
+    transition-duration: 0.5s;
+}
+.headerbox .headerbox_inner .part2 i:hover {
+    color: #fa363f;
+}
+.headerbox .headerbox_inner .part2 .icons {
+    padding: 30px;
+}
+.headerbox .headerbox_inner .part2 .searchbox {
+    position: relative;
+    padding: 30px;
+}
+.headerbox .headerbox_inner .part2 .searchbox input {
+    width: 220px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+.headerbox .headerbox_inner .part2 .searchbox a{
+    position: absolute;
+    right: 25px;
+    top: 26px;
+}
+
+/* section */
+
+/* sectionbox1 */
+section .sectionbox1{
+    position: relative;
+    display: flex;
+}
+section .sectionbox1 img{
+    width: 100%;
+}
+section .sectionbox1 .title {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+}
+section .sectionbox1 .title h1{
+    font-size: 100px;
+}
+section .sectionbox1 .title p{
+    font-size: 65px;
+    padding: 30px 0;
+}
+section .sectionbox1 .title a{
+    padding: 40px 0;
+    position: absolute;
+}
+
+section .sectionbox1 .title a span{
+    color: white;
+    background-color: orange;
+    padding: 20px;
+    font-size: 30px;
+    transition-duration: 0.5s;
+}
+section .sectionbox1 .title a span:hover{
+    background-color: #fa363f;
+}
+
+/* sectionbox2 */
+section .sectionbox2 {
+    width: 100%;
+    display: flex;
+}
+section .sectionbox2 .part1 {
+    color: white;
+    padding: 100px;
+    width: 50%;
+    background-color: #363636;
+}
+section .sectionbox2 .part1 a {
+    color: white;
+    transition-duration: 0.5s;
+}
+section .sectionbox2 .part1 a:hover {
+    color: #fa363f;
+}
+section .sectionbox2 .part1 .title {
+    font-size: 80px;
+}
+section .sectionbox2 .part1 .content {
+    font-size: 18px;
+    padding: 40px 0;
+}
+section .sectionbox2 .part2 {
+        width: 50%;
+        font-size: 50px;
+        padding: 30px 80px;
+        line-height: 100px;
+}
+section .sectionbox2 .part2 .color{
+    color: #fa363f;
+}
+
+/* sectionbox3 */
+section .sectionbox3 .content{
+    padding: 60px;
+}
+section .sectionbox3 .content h2{
+    font-size: 90px;
+}
+section .sectionbox3 .content h2 span{
+    color: #fa363f;
+}
+section .sectionbox3 .content p{
+    font-size: 50px;
+}
+
+/* sectionbox4 */
+section .sectionbox4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* sectionbox5 */
+section .sectionbox5 .content{
+    padding: 60px;
+}
+section .sectionbox5 .content h2{
+    font-size: 90px;
+}
+section .sectionbox5 .content h2 span{
+    color: #fa363f;
+}
+section .sectionbox5 .content p{
+    font-size: 50px;
+}
+
+/* sectionbox6 */
+section .sectionbox6 {
+    display: flex;
+    padding: 3%;
+    justify-content: space-evenly;
+}
+section .sectionbox6 p{
+    padding-top: 30px;
+    font-size: 40px;
+    color: #787878;
+}
+section .sectionbox6 .part1{
+    position: relative;
+    padding: 50px;
+    border: 1px solid;
+}
+section .sectionbox6 .part1 i{
+    position: absolute;
+    right: 0px;
+    top: 140px;
+    font-size: 30px;
+    background-color: #fa363f;
+    padding: 30px;
+    color: white;
+    transition-duration: 0.5s;
+}
+section .sectionbox6 .part1 i:hover{
+    background-color: #aa070f;
+}
+section .sectionbox6 .part2{
+    position: relative;
+    padding: 50px;
+    border: 1px solid;
+}
+section .sectionbox6 .part2 i{
+    position: absolute;
+    right: 0px;
+    top: 140px;
+    font-size: 30px;
+    background-color: #fa363f;
+    padding: 30px;
+    color: white;
+    transition-duration: 0.5s;
+}
+section .sectionbox6 .part2 i:hover{
+    background-color: #aa070f;
+}
+
+/* sectionbox7 */
+section .sectionbox7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .sectionbox7 .dot1{
+    width: 20px;
+    height: 20px;
+    background-color: #fa363f;
+    margin:5px 5px;
+}
+section .sectionbox7 .dot2{
+    width: 20px;
+    height: 20px;
+    background-color: #b7b7b7;
+    margin:5px 5px;
+}
+section .sectionbox7 .dot3{
+    width: 20px;
+    height: 20px;
+    background-color: #b7b7b7;
+    margin:5px 5px;
+}
+
+/* sectionbox8 */
+section .sectionbox8 {
+    display: flex;
+    position: relative;
+    background-image: url(bgimg2.jpg);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .sectionbox8 .part1 {
+    padding: 50px;
+    width: 50%;
+}
+section .sectionbox8 .part1 h2 {
+    font-size: 80px;
+}
+section .sectionbox8 .part1 p {
+    font-size: 50px;
+}
+section .sectionbox8 .part1 form input {
+    width: 80%;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    margin: 3% 0;
+}
+section .sectionbox8 .part1 form textarea {
+    border: none;
+    width: 80%;
+    height: 200px;
+    margin: 3% 0;
+    padding: 20px;
+}
+section .sectionbox8 .part1 form a {
+    background-color: #fa363f;
+    border: none;
+    color: white;
+    padding: 20px;
+    transition-duration: 0.5s;
+}
+section .sectionbox8 .part1 form a:hover {
+    background-color: #aa070f;
+}
+section .sectionbox8 .part2 {
+    display: flex;
+    width: 50%;
+}
+section .sectionbox8 .part2 .img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 80px;
+}
+section .sectionbox8 .part2 .content{
+    z-index: 1;
+    position: absolute;
+    right: 80px;
+    top: 180px;
+}
+section .sectionbox8 .part2 .content h3{
+    color: white;
+    font-size: 35px;
+}
+section .sectionbox8 .part2 .content address{
+    color: white;
+    font-size: 30px;
+}
+section .sectionbox8 .part2 .content a{
+    color: white;
+    font-size: 40px;
+    transition-duration: 0.5s;
+}
+section .sectionbox8 .part2 .content a:hover {
+    color: #fa363f;
+}
+
+/* footer */
+footer .footerbox{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #a0a0a0;
+    font-size: 20px;
+}
+footer .footerbox .logo {
+    padding: 40px 0;
+}
+footer .footerbox .menu {
+    padding-top: 20px;
+}
+footer .footerbox .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: #a0a0a0;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+footer .footerbox .menu ul li:hover{
+    color: #fa363f;
+}
+
+
+@media(max-width:1024px){
+    section .sectionbox1 .title h1 {
+        font-size: 75px;
+    }
+    section .sectionbox1 .title p {
+        font-size: 35px;
+    }
+    section .sectionbox8 .part2 .img {
+        right: -105px;
+    }
+    section .sectionbox8 .part2 .content {
+        right: 50px;
+    }
+}
+
+@media(max-width:768px){
+    .headerbox .headerbox_inner{
+        padding: 20px;
+    }
+    .headerbox .headerbox_inner .part2 .searchbox {
+        padding: 5px;
+    }
+    .headerbox .headerbox_inner .part2 .searchbox a {
+        right: 10px;
+        top: 10px;
+    }
+    .headerbox .headerbox_inner .part2 i {
+        padding: 5px;
+    }
+    .headerbox .headerbox_inner .part2 .icons{
+        padding: 10px;
+    }
+    section .sectionbox1 .title h1 {
+        font-size: 50px;
+    }
+    section .sectionbox1 .title p {
+        font-size: 25px;
+    }
+    section .sectionbox1 .title{
+        top: 75px;
+    }
+    section .sectionbox1 .title a span {
+        padding: 12px;
+        font-size: 20px;
+    }
+    section .sectionbox1 .title a{
+        padding: 15px 0;
+    }
+    section .sectionbox2 .part1{
+        padding: 45px;
+    }
+    section .sectionbox2 .part2 {
+        padding: 0 45px;
+    }
+    section .sectionbox3 .content {
+        padding: 30px;
+    }
+    section .sectionbox3 .content h2 {
+        font-size: 60px;
+    }
+    section .sectionbox3 .content p {
+        font-size: 35px;
+    }
+    section .sectionbox5 .content{
+        padding: 30px;
+    }
+    section .sectionbox5 .content h2 {
+        font-size: 60px;
+    }
+    section .sectionbox5 .content p {
+        font-size: 35px;
+    }
+    section .sectionbox6 .part1 {
+        padding: 30px;
+    }
+    section .sectionbox6 .part2{
+        padding: 30px;
+    }
+    section .sectionbox6 p{
+        font-size: 20px;
+    }
+    section .sectionbox6 .part1 i{
+        top: 85px;
+        padding: 20px;
+    }
+    section .sectionbox6 .part2 i{
+        top: 85px;
+        padding: 20px;
+    }
+    section .sectionbox8 .part2 .img {
+        right: -280px;
+    }
+    section .sectionbox8 .part1{
+        padding: 20px;
+    }
+    section .sectionbox8 .part2 .content {
+        right: 25px;
+    }
+    section .sectionbox8 .part2 .content address {
+        font-size: 20px;
+    }
+    section .sectionbox8 .part2 .content a {
+        font-size: 30px;
+    }
+    section .sectionbox8 .part1 h2 {
+        font-size: 60px;
+    }
+    section .sectionbox8 .part1 p {
+        font-size: 35px;
+    }
+    section .sectionbox8{
+        align-items: center;
+    }
+    section .sectionbox8 .part1 form input {
+        width: 90%;
+    }
+    section .sectionbox8 .part1 form textarea {
+        width: 90%;
+    }
+    footer .footerbox .menu ul li{
+        font-size: 16px;
+    }
+    footer .footerbox .name {
+        font-size: 16px;
+    } 
+    footer .footerbox .logo {
+        padding: 20px;
+    }
+    footer .footerbox{
+        padding: 15px;
+    }
+}
+
+
+@media(max-width:476px){
+    .headerbox .headerbox_inner .part2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .headerbox .headerbox_inner .part2 .menubar i{
+        position: absolute;
+    }
+    .headerbox .headerbox_inner {
+        padding: 10px;
+    }
+    .headerbox .headerbox_inner .part2 .icons {
+        padding: 5px;
+    }
+    .headerbox .headerbox_inner .part2 .searchbox {
+        padding-right: 30px;
+    }
+    .headerbox .headerbox_inner .part2 .searchbox a {
+        right: 35px;
+        top: 12px;
+    }
+    .headerbox .headerbox_inner .part2 .menubar i {
+        position: absolute;
+        top: 60px;
+        right: 5px;
+    }
+    section .sectionbox1 .title h1 {
+        font-size: 30px;
+    }
+    section .sectionbox1 .title p {
+        font-size: 15px;
+    }
+    section .sectionbox1 .title {
+        top: 50px;
+        left: 45px;
+    }
+    section .sectionbox1 .title a span {
+        padding: 7px;
+        font-size: 15px;
+    }
+    .headerbox .headerbox_inner .part1 img {
+        width: 155px;
+    }
+    section .sectionbox2 .part2 {
+        padding: 20px;
+    }
+    section .sectionbox2 .part1 {
+        padding: 20px;
+    }
+    section .sectionbox2 .part1 .title {
+        font-size: 40px;
+    }
+    section .sectionbox2 .part1 .content {
+        font-size: 15px;
+        padding: 25px 0;
+    }
+    section .sectionbox2 .part1 a {
+        font-size: 12px;
+    }
+    section .sectionbox2 .part2 .color {
+        font-size: 26px;
+    }
+    section .sectionbox2 .part2 .content {
+        font-size: 26px;
+        line-height: 50px;
+    }
+    section .sectionbox3 .content {
+        padding: 15px;
+    }
+    section .sectionbox3 .content h2 {
+        font-size: 35px;
+    }
+    section .sectionbox3 .content p {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    section .sectionbox5 .content {
+        padding: 15px;
+    }
+    section .sectionbox5 .content h2 {
+        font-size: 35px;
+    }
+    section .sectionbox5 .content p {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    section .sectionbox4 img {
+        width: 33.33%;
+    }
+    section .sectionbox6 .part1 {
+        padding: 10px;
+    }
+    section .sectionbox6 .part2 {
+        padding: 10px;
+    }
+    section .sectionbox6 p{
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    section .sectionbox6 .part1 i {
+        top: 65px;
+        padding: 12px;
+        font-size: 15px;
+    }
+    section .sectionbox6 .part2 i {
+        top: 65px;
+        padding: 12px;
+        font-size: 15px;
+    }
+    section .sectionbox7 .dot1{
+        width: 10px;
+        height: 10px;
+    }
+    section .sectionbox7 .dot2{
+        width: 10px;
+        height: 10px;
+    }
+    section .sectionbox7 .dot3{
+        width: 10px;
+        height: 10px;
+    }
+    section .sectionbox8 {
+        flex-wrap: wrap;
+    }
+    section .sectionbox8 .part1{
+        width: 100%;
+    }
+    section .sectionbox8 .part2{
+        width: 100%;
+    }
+    section .sectionbox8 .part1 {
+        width: 100%;
+        top: 0;
+        position: absolute;
+    }
+    section .sectionbox8 .part1 h2 {
+        font-size: 30px;
+    }
+    section .sectionbox8 .part1 {
+        padding: 20px;
+        line-height: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section .sectionbox8 .part1 p {
+        font-size: 15px;
+    }
+    section .sectionbox8 .part1 form input {
+        width: 100%;
+        height: 30px;
+    }
+    section .sectionbox8 .part1 form textarea {
+        width: 100%;
+        height: 100px;
+    }
+    section .sectionbox8 .part2 {
+        width: 100%;
+        position: absolute;
+        align-items: center;
+    }
+    section .sectionbox8 .part1 form a {
+        font-size: 12px;
+        padding: 15px;
+    }
+    section .sectionbox8 .part2 .img{
+            padding: 0;
+            left: 45px;
+    }
+    section .sectionbox8 .part2 .img img {
+        width: 80%;
+    }
+    section .sectionbox8 .part2 .content {
+        left: 85px;
+        top: 40px;
+    }
+    footer .footerbox .menu ul li {
+        font-size: 10px;
+    }
+    footer .footerbox .name {
+        font-size: 12px;
+    }
+    footer .footerbox .logo img {
+        width: 120px;
+    }
+    section .sectionbox8 .part2 .content h3 {
+        font-size: 25px;
+    }
+    section .sectionbox8 .part2 .content address{
+        font-size: 15px;
+    }
+    section .sectionbox8 .part2 .content a {
+        font-size: 20px;
+    }
+    section .sectionbox8 .part2 .content i {
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:360px){
+    .headerbox .headerbox_inner {
+        position: relative;
+    }
+    .headerbox .headerbox_inner .part1 {
+        position: absolute;
+        top: 10px;
+    }
+    .headerbox .headerbox_inner .part2 .icons {
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    .headerbox .headerbox_inner .part2 i {
+        font-size: 20px;
+        padding: 3px;
+    }
+    .headerbox .headerbox_inner .part2 .searchbox input {
+        width: 250px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    .headerbox .headerbox_inner .part2 .searchbox a {
+        right: 36px;
+        top: 59px;
+    }
+    .headerbox .headerbox_inner .part2 .menubar i {
+        top: 65px;
+        right: 8px;
+    }
+    section .sectionbox1 .title h1 {
+        font-size: 22px;
+    }
+    section .sectionbox1 .title p {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+    section .sectionbox1 .title a span {
+        padding: 5px;
+        font-size: 12px;
+    }
+    section .sectionbox1 .title {
+        top: 35px;
+        left: 30px;
+    }
+    section .sectionbox2 {
+        display: flex;
+        flex-direction: column;
+    }
+    section .sectionbox2 .part1 {
+        width: 100%;
+        padding: 15px;
+    }
+    section .sectionbox2 .part2 {
+        width: 100%;
+        padding: 15px;
+    }
+    section .sectionbox2 .part1 .title {
+        font-size: 30px;
+    }
+    section .sectionbox2 .part1 .content {
+        font-size: 10px;
+        padding: 15px 0;
+    }
+    section .sectionbox2 .part2 .color {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    section .sectionbox2 .part2 .content {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    section .sectionbox3 .content {
+        padding: 10px;
+    }
+    section .sectionbox3 .content h2 {
+        font-size: 23px;
+    }
+    section .sectionbox3 .content p {
+        font-size: 17px;
+        padding: 6px 0;
+    }
+    section .sectionbox5 .content {
+        padding: 10px;
+    }
+    section .sectionbox5 .content h2 {
+        font-size: 23px;
+    }
+    section .sectionbox5 .content p {
+        font-size: 17px;
+        padding: 6px 0;
+    }
+    section .sectionbox6 .part1 i {
+        top: 30px;
+    }
+    section .sectionbox6 .part2 i {
+        top: 30px;
+    }
+    section .sectionbox8 .part2 .content h3 {
+        font-size: 12px;
+    }
+    section .sectionbox8 {
+        margin-top: -36px;
+    }
+    section .sectionbox8 .part2 .img {
+        left: 29px;
+        top: 60px;
+    }
+    section .sectionbox8 .part2 .content address {
+        font-size: 10px;
+        margin: -30px 0;
+    }
+    section .sectionbox8 {
+        height: 700px;
+    }
+    section .sectionbox8 .part2 .content {
+        top: 75px;
+    }
+    footer .footerbox .menu ul li {
+        font-size: 12px;
+    }
+    footer .footerbox .menu ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    footer .footerbox .name {
+        text-align: center;
+        padding-top: 10px;
+    }
+    footer .footerbox {
+        padding: 0;
+    }
+}
+
+@media(max-width:320px){
+    .headerbox .headerbox_inner {
+        position: relative;
+    }
+    .headerbox .headerbox_inner .part1 {
+        position: absolute;
+        top: 10px;
+    }
+    .headerbox .headerbox_inner .part2 .icons {
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    .headerbox .headerbox_inner .part2 i {
+        font-size: 20px;
+        padding: 3px;
+    }
+    .headerbox .headerbox_inner .part2 .searchbox input {
+        width: 250px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    .headerbox .headerbox_inner .part2 .searchbox a {
+        right: 36px;
+        top: 59px;
+    }
+    .headerbox .headerbox_inner .part2 .menubar i {
+        top: 65px;
+        right: 8px;
+    }
+    section .sectionbox1 .title h1 {
+        font-size: 22px;
+    }
+    section .sectionbox1 .title p {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+    section .sectionbox1 .title a span {
+        padding: 5px;
+        font-size: 12px;
+    }
+    section .sectionbox1 .title {
+        top: 35px;
+        left: 30px;
+    }
+    section .sectionbox2 {
+        display: flex;
+        flex-direction: column;
+    }
+    section .sectionbox2 .part1 {
+        width: 100%;
+        padding: 15px;
+    }
+    section .sectionbox2 .part2 {
+        width: 100%;
+        padding: 15px;
+    }
+    section .sectionbox2 .part1 .title {
+        font-size: 30px;
+    }
+    section .sectionbox2 .part1 .content {
+        font-size: 10px;
+        padding: 15px 0;
+    }
+    section .sectionbox2 .part2 .color {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    section .sectionbox2 .part2 .content {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    section .sectionbox3 .content {
+        padding: 10px;
+    }
+    section .sectionbox3 .content h2 {
+        font-size: 23px;
+    }
+    section .sectionbox3 .content p {
+        font-size: 17px;
+        padding: 6px 0;
+    }
+    section .sectionbox5 .content {
+        padding: 10px;
+    }
+    section .sectionbox5 .content h2 {
+        font-size: 23px;
+    }
+    section .sectionbox5 .content p {
+        font-size: 17px;
+        padding: 6px 0;
+    }
+    section .sectionbox6 .part1 i {
+        top: 30px;
+    }
+    section .sectionbox6 .part2 i {
+        top: 30px;
+    }
+    section .sectionbox8 .part2 .content h3 {
+        font-size: 12px;
+    }
+    section .sectionbox8 {
+        margin-top: -36px;
+    }
+    section .sectionbox8 .part2 .img {
+        left: 29px;
+        top: 60px;
+    }
+    section .sectionbox8 .part2 .content address {
+        font-size: 10px;
+        margin: -30px 0;
+    }
+    section .sectionbox8 {
+        height: 700px;
+    }
+    section .sectionbox8 .part2 .content {
+        top: 75px;
+    }
+    footer .footerbox .menu ul li {
+        font-size: 12px;
+    }
+    footer .footerbox .menu ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    footer .footerbox .name {
+        text-align: center;
+        padding-top: 10px;
+    }
+    footer .footerbox {
+        padding: 0;
+    }
+}
